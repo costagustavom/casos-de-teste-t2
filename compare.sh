@@ -1,11 +1,11 @@
-for i in `seq 1 20`; do	
-	rm -f saidas/output-$i.out
-done
-for i in `seq 1 20`; do
+for i in `seq 1 9`; do
 	echo -e "Rodando Teste: $i"
-	./main < in/entradas/input-$i.in > saidas/output-$i.out
+	.././main < entradas/input-$i > resultado/output-$i
 done
-for i in `seq 1 20`; do
+for i in `seq 1 9`; do
     echo -e "Comparing: $i"
-    diff saidas/output-$i.out resultado/$i.out
+    diff saidas/output-$i resultado/output-$i
+done
+for i in `seq 1 9`; do	
+	rm -f resultado/output-$i
 done
