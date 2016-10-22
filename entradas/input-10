@@ -1,0 +1,6 @@
+573
+neste trabalho o aluno implementara o algoritmo de busca de cadeias de caracteres com o uso de automato finito, descrito em sala de aula. o programa lera uma linha de texto e um padrao e executara um conjunto de operacoes. o trabalho deve assumir a definicao de entrada e saida como indicada na secao a seguir. a entrada contera inicialmente tres linhas. a primeira linha contera um inteiro, que indica quantos caracteres possui a linha de texto. a segunda linha contera a linha de texto. a terceira linha contera um padrao. o aluno assumira o seguinte formato de entrada
+ padrao
+u
+s
+e
